@@ -17,13 +17,15 @@ image_rotated = [
 ]
 
 def rotate_image(img):
-    output = []
     rows = len(img)
     cols = len(img[0])
-
+    
+    # initialize matrix 
+    output = []
     for i in range(rows):
         output.append([9] * cols)
 
+    # create output matrix
     for i in range(rows):
         for j in range(cols):
             output[i][j] = img[j][(cols-i-1)]
