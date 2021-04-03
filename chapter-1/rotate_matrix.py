@@ -36,3 +36,6 @@ if rotate_image(input_image) == image_rotated:
     print("Image rotated sucessfully!")
 else:
     print("Dude... image wasn't rotated....")
+
+
+# Tem uma forma melhor de fazer isso: https://stackoverflow.com/questions/25882480/rotating-a-nxn-matrix-in-java
